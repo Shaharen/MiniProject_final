@@ -4,7 +4,7 @@ import java.util.Scanner;
 import javax.print.DocFlavor.STRING;
 import javazoom.jl.player.MP3Player; 
 
-public class LandMemberMain {
+public class LandMemberMain { 
 
 	public static void main(String[] args) {
 
