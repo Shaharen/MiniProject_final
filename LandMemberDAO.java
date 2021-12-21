@@ -373,8 +373,8 @@ public class LandMemberDAO {
          psmt.setString(1, nick);
          rs = psmt.executeQuery();
          if (rs.next()) {
-            lose = rs.getInt("win");
-            win = rs.getInt("lose");
+            lose = rs.getInt("lose");
+            win = rs.getInt("win");
             total = rs.getInt("total");
          } else {
             total = 0;
